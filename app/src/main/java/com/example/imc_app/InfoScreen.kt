@@ -134,7 +134,7 @@ fun InfoScreen() {
         Row(
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier
-                .clickable { uriHandler.openUri("https://github.com/your-github-repo") }
+                .clickable { uriHandler.openUri("https://github.com/Enzo889/IMCAPP") }
                 .padding(8.dp)
         ) {
             Icon(
